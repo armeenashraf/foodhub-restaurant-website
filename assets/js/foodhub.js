@@ -47,3 +47,9 @@ for (let i = 0; i < navLinks.length; i++) {
   navLinks[i].addEventListener('click', navToggleFunc);
 
 }
+
+let full = document.getElementById('full')
+full.addEventListener('click' , ()=>{
+  swal ( "Oops" ,  "Something went wrong!" ,  "error" )
+
+})
